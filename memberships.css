@@ -1,0 +1,53 @@
+.membership{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px;
+
+
+
+
+}
+.membership-para-div{
+    display: flex;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.membership-para{
+    color: white;
+    font-size: 18px;
+}
+.email-flex{
+    display: flex;
+    width: 800px;
+}
+.bottom{
+    display: flex;
+}
+.emails{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 100%;
+}
+.emails::placeholder{
+    font-size: 10px;
+    color: rgb(144, 143, 143);
+}
+.get-started-flexs{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-left: -2px;
+    box-shadow: 0.5px 0.5px 0.8px rgba(0,0,0,0.15);
+    width: 100px;
+}
+
+

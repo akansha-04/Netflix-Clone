@@ -1,0 +1,30 @@
+/* Hide the checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+.collapsible-label {
+  cursor: pointer;
+  font-size: 24px;
+  display: inline-block;
+}
+
+/* Initially, show plus sign */
+.collapsible-label::before {
+  content: '+';
+}
+
+/* When the checkbox is checked, show multiplication sign */
+input[type="checkbox"]:checked + .collapsible-label::before {
+  content: '×';
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+input[type="checkbox"]:checked + .collapsible-label + .content {
+  max-height: 100px; /* Set your desired height */
+}

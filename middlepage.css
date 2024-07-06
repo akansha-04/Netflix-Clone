@@ -1,0 +1,62 @@
+.middle-writing-grid{
+    display: flex;
+    align-items: center;
+    height: 380px;
+    background-color: black;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.writing-grid{
+    width: 50%;
+}
+.images-grid{
+    width: 50%;
+
+}
+
+.writing{
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    padding-left: 35%;
+}
+.titles{
+    width: 400px;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.para{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    word-spacing: 2px;
+    margin-bottom: 0px;
+
+}
+.second-para{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 5px;
+    word-spacing: 2px;
+    margin-bottom: 0px;
+}
+.imgs{
+    width:380px;
+
+}
+
+.imgs-left{
+    align-items: center;
+    padding-left: 40%;
+    width:380px;
+}
+.writing-left{
+    height: fit-content;
+    align-items: center;
+    padding-left: 10%;
+}

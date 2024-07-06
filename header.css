@@ -1,0 +1,136 @@
+.header-display{
+
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(images/header-image.png);
+    height: 680px;
+    position: relative;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.netflix-logo{
+    display: inline-block;
+}
+.netflix-logo-img{
+    position: absolute;
+    height: 30px;
+    top: 20px;
+    left: 80px;
+    
+}
+.right-side{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 50px;
+    top:20px;
+    gap: 30px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.eng-button{
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    background: none;
+    color: white;
+    border-style: solid;
+    border-color: rgb(145, 142, 142);
+    border-width: 1px;
+    border-right: none;
+    padding-right: 5px;
+
+}
+
+.down-arrow-button{
+    padding-top: 4px;
+    padding-bottom: 3px;
+    background:none;
+    border-style: solid;
+    border-color: rgb(145, 142, 142);
+    border-width: 1px;
+    border-left: none;
+    padding-left: 0px;
+    padding-right: 10px;
+
+}
+.down-icon{
+    width: 10px;
+}
+.sign-in{
+    background-color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.middle{
+    display: grid;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 500px;
+}
+.start{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.middle-line{
+    color: rgb(219, 216, 216);
+    font-size: 20px;
+    margin-top: 12px;
+    text-align: center;
+}
+.end-line{
+    color: rgb(191, 189, 189);
+    margin-top: 25px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.email-grid{
+    display: grid;
+    grid-template-columns: 500px 150px;
+    margin-top: 30px;
+}
+.email{
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+.email::placeholder{
+    font-size: 10px;
+    color: rgb(144, 143, 143);
+}
+
+.get-started-flex{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-left: -2px;
+    box-shadow: 0.5px 0.5px 0.8px rgba(0,0,0,0.15);
+}
+
+.get-started{
+
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+} 

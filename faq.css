@@ -1,0 +1,94 @@
+.faq{
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    flex-direction: column;
+    justify-items: center;
+    position: relative;
+}
+
+.faq-titles-div{
+    display: flex;
+    justify-content: center;
+}
+.faq-titles{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.faq-started-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+}
+.faq-started{
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    height: 55px;
+    width: 600px;
+    border: none; /* Remove border if not needed */
+    cursor: pointer;
+}
+/* Hide the checkbox */
+input[type="checkbox"] {
+    display: none;
+  }
+.faq-started:active{
+    opacity: 0.6;
+}
+
+.faq-title{
+    display: flex;
+    align-content: center;
+    width: 90%;
+}
+.faq-plus{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.faq-plus-css::before {
+    content: '+';
+}
+input[type="checkbox"]:checked + label .faq-plus-css::before {
+    content: '×';
+}
+.faq-font{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 13px;
+    height: fit-content;
+    width: fit-content;
+}
+.faq-plus-css{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 600px;
+    background-color: rgb(48, 48, 48);
+    margin-top: 2px;
+  }
+.content-css{
+    color: white;
+    padding-left: 10px;
+    padding-right: 2px;
+    
+}
+input[type="checkbox"]:checked + .faq-started + .content {
+    max-height: fit-content; /* Set your desired height */
+}
+
